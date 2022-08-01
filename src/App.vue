@@ -55,4 +55,11 @@ export default {
   margin-top: 35vh;
   margin-bottom: 35vh;
 }
+
+@media (max-width: 1100px) {
+  .style-section {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+  }
+}
 </style>
