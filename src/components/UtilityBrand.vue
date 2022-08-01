@@ -24,7 +24,7 @@
         </div>
         <div data-aos="fade" data-aos-duration="700" style="margin-top: 20vh" class="row">
           <div class="col-md-4">
-            <img class="style-image" src="../assets/encrerie-art.jpg" height="350" alt="">
+            <img class="style-image" src="@/assets/encrerie-art.jpg" height="350" alt="">
           </div>
           <div class="col-md-8">
             <h1>PHYSICAL BRAND.</h1>
@@ -54,7 +54,7 @@
         </div>
         <div data-aos="fade" data-aos-duration="700" style="margin-top: 20vh; margin-bottom: 20vh" class="row">
           <div class="col-md-4">
-            <img class="style-image" src="../assets/basket-tattoo.jpg" height="250" alt="">
+            <img class="style-image" src="@/assets/basket-tattoo.jpg" height="250" alt="">
           </div>
           <div class="col-md-8">
             <h1>FUTURE AND COLLAB.</h1>

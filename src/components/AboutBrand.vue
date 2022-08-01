@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md">
           <img data-aos="fade-up" data-aos-duration="1500" class="style-image"
-               src="../assets/leo-art.jpg" width="500" alt="">
+               src="@/assets/leo-art.jpg" width="500" alt="">
         </div>
         <div data-aos="fade" data-aos-duration="1500"
              class="col style-text">
@@ -40,7 +40,7 @@
           and digital experiences.
         </div>
         <div class="col">
-          <img data-aos="fade-up" data-aos-duration="1500" class="style-image" src="../assets/vitrine-encrerie.png"
+          <img data-aos="fade-up" data-aos-duration="1500" class="style-image" src="@/assets/vitrine-encrerie.png"
                width="500" alt="">
         </div>
       </div>

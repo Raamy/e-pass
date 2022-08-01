@@ -3,7 +3,7 @@
     <div class="container style-description">
       <div data-aos="fade" data-aos-duration="700" class="row">
         <div class="col-md-5">
-          <img class="style-image" src="../assets/leo-gavaggio.png" height="450" alt="">
+          <img class="style-image" src="@/assets/leo-gavaggio.png" height="450" alt="">
         </div>
         <div class="col-md-7 style-text">
           Leo Gavaggio, is an artist designer and tattoo artist from Paris
@@ -38,50 +38,50 @@
           professionals.
         </div>
         <div class="col-md-3">
-          <img class="style-image" src="../assets/jeremy-taltaud.webp" height="450" alt="">
+          <img class="style-image" src="@/assets/jeremy-taltaud.webp" height="450" alt="">
         </div>
       </div>
       <hr>
       <div class="style-wodji-labs">
         <!-- Nothing -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           <h3>NOTHING (Aaron)</h3>
           <span>CO-FOUNDER / HEAD OF PRODUCT</span>
         </div>
         <!-- Nerif -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           NERIF (Vincent) <br>
           CO-FOUNDER / COO
         </div>
         <!-- Malbator -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           MALBATOR (Matthieu) <br>
           CO-FOUNDER / MARKETING DIRECTOR
         </div>
         <!-- Aikoon -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           Aikoon (Bettina) <br>
           DIRECTOR OF COMMUNICATION
         </div>
         <!-- OldCoiner -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           OLDCOINER (Seb) <br>
           COMMUNITY MANAGER / HEAD OF PARTNERSHIPS
         </div>
         <!-- Juno :D -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           JUNO (Ramy) <br>
           LEAD DEVELOPER
         </div>
         <!-- Poppy -->
         <div class="style-card">
-          <img class="style-card-image" src="../assets/pfp1.png" alt="">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
           POPPY (Léa) <br>
           MEDIA SPECIALIST
         </div>
