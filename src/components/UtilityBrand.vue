@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="center">
-        <div data-aos="fade" data-aos-duration="700" style="margin-top: 20vh" class="row">
+        <div data-aos="fade" data-aos-duration="700" data-aos-anchor-placement="top-center"  style="margin-top: 20vh" class="row">
           <div>
             <h1>WEB3 BRAND AND INCUBATOR.</h1>
             <img style="margin-top: 5vh; margin-bottom: 5vh" src="../assets/leo-jey.png" class="style-image" alt="">
@@ -28,7 +28,7 @@
             <br>
           </div>
         </div>
-        <div data-aos="fade" data-aos-duration="700" style="margin-top: 20vh" class="row">
+        <div data-aos="fade" data-aos-duration="700" data-aos-anchor-placement="top-center"  style="margin-top: 20vh" class="row">
           <div class="col-md-6">
             <img class="style-image" src="@/assets/t-shirt.png" alt="">
           </div>
@@ -50,11 +50,11 @@
             <br>
           </div>
         </div>
-        <div data-aos="fade" data-aos-duration="700" style="margin-top: 20vh" class="row">
+        <div data-aos="fade" data-aos-duration="700" data-aos-anchor-placement="top-center"  style="margin-top: 20vh" class="row">
           <div class="col-md-6">
             <h1>EVENT.</h1>
             <div class="style-text text-start">
-              At L'ENCRERIE we make the real life our priority. <br>
+              At L'ENCRERIE we make the real life our priority.
               Build relationships, make friends and enjoy unique experiences.
               <br>
               <br>
@@ -69,7 +69,7 @@
             <img class="style-image" src="@/assets/event.png" alt="">
           </div>
         </div>
-        <div data-aos="fade" data-aos-duration="700" style="margin-top: 20vh; margin-bottom: 20vh" class="row">
+        <div data-aos="fade" data-aos-duration="700" data-aos-anchor-placement="top-center"  style="margin-top: 20vh; margin-bottom: 20vh" class="row">
           <div class="col-md-6">
             <img class="style-image vertical-center" src="@/assets/basket-tattoo.jpg" alt="">
           </div>
