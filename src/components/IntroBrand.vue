@@ -2,21 +2,21 @@
   <div>
     <div class="style-introduction-brand text-center">
     <span data-aos="fade" data-aos-delay="500" class="vertical-center">
-      L'Encrerie Pass.
+      L'ENCRERIE PASS
     </span>
     </div>
     <div class="style-description">
-      <div>
+      <div class="container">
         <div data-aos="fade" data-aos-duration="1200">
-          A collection of 5000 pass living on the <br>
-          ethereum blockchain.Each pass <br>
-          gives an exclusive access to the <br>
-          universe of L'Encrerie, an emblematic <br>
-          Parisian place focused on art, <br>
-          tattooing, events and ready-to-wear.<br>
+          A collection of 5000 pass living on the
+          ethereum blockchain. Each pass
+          gives an exclusive access to the
+          universe of L'Encrerie, an emblematic
+          Parisian place focused on art,
+          tattooing, events and ready-to-wear.
           <br>
         </div>
-        <div data-aos="fade" data-aos-duration="1200">
+        <div class="text-center mt-5" data-aos="fade" data-aos-duration="1200">
           - Let's bring romance and utility to WEB3 -
         </div>
       </div>
@@ -42,6 +42,13 @@ export default {
   margin-top: 35vh;
   margin-bottom: 35vh;
   font-size: 44px;
+  text-align: justify;
+  justify-content: center;
+}
+
+.container {
+  max-width: 50vw;
+  justify-content: center;
 }
 
 @media (max-width: 1100px) {
@@ -49,12 +56,16 @@ export default {
     /*height: 130vh;*/
     font-size: 22px;
   }
+
+  .container {
+    max-width: 100vw;
+  }
 }
 
 .vertical-center {
   margin: 0;
   position: relative;
-  top: 50%;
+  top: 40%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }

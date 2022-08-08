@@ -2,12 +2,12 @@
   <div>
     <div class="container style-description">
       <div class="row">
-        <div class="col-md">
-          <img data-aos="fade-up" data-aos-duration="1500" class="style-image"
-               src="@/assets/leo-art.jpg" width="500" alt="">
+        <div data-aos="fade-down" data-aos-duration="1500" data-aos-anchor-placement="top-center" class="col-md">
+          <img class="style-image vertical-center"
+               src="@/assets/leo-art.webp" width="500" alt="">
         </div>
-        <div data-aos="fade" data-aos-duration="1500"
-             class="col style-text">
+        <div data-aos="fade" data-aos-duration="1500" data-aos-anchor-placement="top-center"
+             class="col-md style-text">
           Because our collection is innovative,
           each pass gives access to a
           physical, exclusive and totally unique
@@ -27,20 +27,23 @@
         </div>
       </div>
       <div style="margin-top: 25vh" class="row">
-        <div data-aos="fade" data-aos-duration="1500" class="col-md style-text">
-          L'Encrerie is not only a design
-          and tattoo studio, it's an
-          international art brand that aims to
-          create a unique product
-          experience as much as an artists'
-          incubator. <br>
-          <br>
-          We want to harmonize the link
-          between collectibles and physical
-          and digital experiences.
+        <div data-aos="fade" data-aos-duration="1500" data-aos-anchor-placement="top-center" class="col-md style-text">
+          <div class="vertical-center">
+            L'Encrerie is not only a design
+            and tattoo studio, it's an
+            international art brand that aims to
+            create a unique product
+            experience as much as an artists'
+            incubator. <br>
+            <br>
+            We want to harmonize the link
+            between collectibles and physical
+            and digital experiences.
+          </div>
         </div>
-        <div class="col">
-          <img data-aos="fade-up" data-aos-duration="1500" class="style-image" src="@/assets/vitrine-encrerie.png"
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" class="col-md">
+          <img class="style-image  vertical-center"
+               src="@/assets/vitrine-encrerie.webp"
                width="500" alt="">
         </div>
       </div>
@@ -58,10 +61,20 @@ export default {
 .style-text {
   font-size: 30px;
   text-align: justify;
+  text-justify: distribute;
+  text-align-last: left;
 }
 
 .style-image {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 @media (max-width: 1100px) {

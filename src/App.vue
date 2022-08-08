@@ -1,18 +1,20 @@
 <template>
   <div class="style-global">
+    <!--  Navigation Bar  -->
+    <NavBar/>
     <!--  Introduction  -->
     <IntroBrand />
     <!--  About  -->
-    <TitleBar title="ABOUT."/>
+    <TitleBar id="about" title="ABOUT."/>
     <AboutBrand class="style-section"/>
     <!--  Utility, community etc...  -->
-    <TitleBar title="UTILITY, COMMUNITY, BRAND."/>
+    <TitleBar id="utility" title="UTILITY, COMMUNITY, BRAND."/>
     <UtilityBrand class="style-section"/>
     <!--  Team  -->
-    <TitleBar title="THE TEAM."/>
+    <TitleBar id="team" title="THE TEAM."/>
     <TheTeam class="style-section"/>
     <!--  Frequently asked questions  -->
-    <TitleBar title="F.A.Q."/>
+    <TitleBar id="faq" title="F.A.Q."/>
     <FrequentlyAsked class="style-section"/>
   </div>
 </template>
@@ -24,10 +26,11 @@ import UtilityBrand from "@/components/UtilityBrand";
 import TheTeam from "@/components/TheTeam";
 import FrequentlyAsked from "@/components/FrequentlyAsked";
 import TitleBar from "@/components/TitleBar";
+import NavBar from "@/components/NavBar";
 
 export default {
   name: 'App',
-  components: {TitleBar, FrequentlyAsked, TheTeam, UtilityBrand, AboutBrand, IntroBrand},
+  components: {NavBar, TitleBar, FrequentlyAsked, TheTeam, UtilityBrand, AboutBrand, IntroBrand},
 }
 </script>
 
@@ -41,7 +44,7 @@ export default {
 }
 
 .style-global {
-  font-family: "Open Sans Condensed", serif;
+  font-family: "Ibarra Real Nova", serif;
   text-align: center;
 }
 #app {
