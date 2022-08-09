@@ -47,57 +47,68 @@
           <img class="style-image vertical-center" src="@/assets/jey.png" height="450" alt="">
         </div>
       </div>
-      <hr>
-        <!-- Nothing -->
-<!--        &lt;!&ndash; Nerif &ndash;&gt;-->
-
-<!--        &lt;!&ndash; Malbator &ndash;&gt;-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          MALBATOR (Matthieu) <br>-->
-<!--          CO-FOUNDER / MARKETING DIRECTOR-->
-<!--        </div>-->
-<!--        &lt;!&ndash; Aikoon &ndash;&gt;-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          Aikoon (Bettina) <br>-->
-<!--          DIRECTOR OF COMMUNICATION-->
-<!--        </div>-->
-<!--        &lt;!&ndash; OldCoiner &ndash;&gt;-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          OLDCOINER (Seb) <br>-->
-<!--          COMMUNITY MANAGER / HEAD OF PARTNERSHIPS-->
-<!--        </div>-->
-<!--        &lt;!&ndash; Juno :D &ndash;&gt;-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          JUNO (Ramy) <br>-->
-<!--          LEAD DEVELOPER-->
-<!--        </div>-->
-<!--        &lt;!&ndash; Poppy &ndash;&gt;-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          POPPY (Léa) <br>-->
-<!--          MEDIA SPECIALIST-->
-<!--        </div>-->
-<!--      </div>-->
+      <!-- SECTION : Partenariat -->
+      <div class="grid">
+        <div><img src="../assets/givenchy.png" alt=""></div>
+        <div><img src="../assets/reebook.png" alt=""></div>
+        <div><img src="../assets/vans.png" alt=""></div>
+        <div><img src="../assets/adidas.png" alt=""></div>
+      </div>
+      <div class="grid">
+        <div><img src="../assets/timberland.png" alt=""></div>
+        <div><img src="../assets/colette.png" alt=""></div>
+        <div><img src="../assets/sarenza.png" alt=""></div>
+        <div><img src="../assets/mustang.webp" alt=""></div>
+      </div>
     </div>
-<!--    <div>-->
-<!--      <div class="marquee-rtl">-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          <h3>NOTHING</h3>-->
-<!--          <span>CO-FOUNDER / HEAD OF PRODUCT</span>-->
-<!--        </div>-->
-<!--        <div class="style-card">-->
-<!--          <img class="style-card-image" src="@/assets/pfp1.png" alt="">-->
-<!--          NERIF<br>-->
-<!--          CO-FOUNDER / COO-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-  </div>
+
+      <hr>
+      <!-- SECTION : Wodji Labs -->
+      <div class="marquee">
+        <!-- Nothing -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>NOTHING</h5>
+          CO-FOUNDER / HEAD OF PRODUCT
+        </span>
+        <!-- Nerif -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>NERIF</h5>
+          CO-FOUNDER / COO
+        </span>
+        <!-- Malbator -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>MALBATOR</h5>
+          CO-FOUNDER / MARKETING DIRECTOR
+        </span>
+        <!-- Aikoon -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>BETTINA</h5>
+          DIRECTOR OF COMMUNICATION
+        </span>
+        <!-- OldCoiner -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>OLDCOINER</h5>
+          COMMUNITY MANAGER / HEAD OF PARTNERSHIPS
+        </span>
+        <!-- Juno ;) -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>JUNO</h5>
+          LEAD DEVELOPER
+        </span>
+        <!-- Poppy -->
+        <span class="style-card">
+          <img class="style-card-image" src="@/assets/pfp1.png" alt="">
+          <h5>POPPY</h5>
+          MEDIA SPECIALIST
+        </span>
+      </div>
+    </div>
 </template>
 
 <script>
@@ -147,52 +158,59 @@ export default {
   grid-template-columns: repeat(4, 2fr);
 }
 
-/* ---------------------------- */
-/* Défilement de droite à gauche */
-.marquee-rtl {
-  overflow: hidden; /* important */
-  width: 80vw; /* A ADAPTER */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
 }
-.marquee-rtl > div {
-  display: inline-block; /* important */
-  white-space: nowrap; /* important */
-  animation: defilement-rtl 15s infinite linear; /* défilement */
-  cursor: pointer;
-  padding: 10px 2em 10px 100%;
+
+.marquee span {
+  display: inline-block;
+  /*padding-right: 103px;*/
+  margin-left: 100px;
+  margin-right: 100px;
+  animation: marquee 24s linear infinite;
 }
-.marquee-rtl:hover > div {
-  animation-play-state: paused; /* met en pause le défilement */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
 }
-@keyframes defilement-rtl {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
+
+.grid > div {
+  /*background: black;*/
+  padding: 1rem;
+  display: grid;
+}
+
+.grid > div::before {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+
+.grid > div::before,
+.grid > div > img {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.1rem black);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(450%);
   }
-  100% {
-    -webkit-transform: translate(-100%);
-    transform: translate(-100%);
+  to {
+    transform: translateX(-1150%);
   }
 }
-/* ---------------------------- */
-/* texte sur plusieurs lignes automatiquement */
-.marquee-multi-lignes > div {
-  width:90%;
-  white-space: normal; /* important */
-}
-
-/* ---------------------------- */
-/* déco */
-h2, p { text-align:center; }
-
-.marquee-rtl {
-  margin: 2em auto;
-  border: solid black 1px;
-  box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
-}
-.marquee-rtl > div {
-  font-size: 1.5em;
-}
-
 
 @media (max-width: 1100px) {
   .style-text {
@@ -215,4 +233,6 @@ h2, p { text-align:center; }
     max-width: 85vw;
   }
 }
+
+
 </style>
