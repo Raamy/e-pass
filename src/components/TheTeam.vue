@@ -170,7 +170,7 @@ export default {
   /*padding-right: 103px;*/
   margin-left: 100px;
   margin-right: 100px;
-  animation: marquee 24s linear infinite;
+  animation: marquee 35s linear infinite;
 }
 
 .grid {
